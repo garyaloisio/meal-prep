@@ -13,7 +13,7 @@ const MealPlanForm: React.FC = () => {
     } catch (error) {
       console.error('Error:', error);
       console.log(error)
-      // Handle error (e.g., display error message to user)
+      // Handle error
     }
   };
 

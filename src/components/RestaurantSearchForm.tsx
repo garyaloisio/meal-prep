@@ -9,7 +9,7 @@ interface BusinessResult {
     is_closed: boolean;
     url: string;
     review_count: number;
-    rating: number; // Add the rating property
+    rating: number;
     // Add other properties as needed
   }  
 
@@ -29,7 +29,6 @@ const RestaurantSearchForm = () => {
       setSearchResults(response.data.businesses);
     } catch (error) {
       console.error('Error:', error);
-      // Handle error (e.g., display error message to user)
     }
   };
 
